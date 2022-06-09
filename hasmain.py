@@ -8,11 +8,11 @@ import pygame
 import pygame.freetype
 from pygame.locals import *
 #### import internal modules
-from haseebgameboard import GameBoard
-from hassmenu import Menu
-from hassbeplayer import Player
+from gameboard import GameBoard
+from menu import Menu
+from player import Player
 from enemy import QixEnemy
-from hasswall import Wall
+from wall import Wall
 from g_utils import *
 from enemies import Enemy
 # initialize all pygame modules
